@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
 
-    <title>reveal.js – The HTML Presentation Framework</title>
+    <title>High Performance Image</title>
 
     <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
     <meta name="author" content="Hakim El Hattab">
@@ -45,18 +45,18 @@
           <h1>Images</h1>
           <h7>Высокопроизводительные изображения</h7>
           <p>
-            <small><a href="http://hakim.se">Александр Тихонов</a></small>
+            <small><a href="https://github.com/larek">Александр Тихонов</a></small>
           </p>
         </section>
 
         <section>
           <h5>Изображений становится больше</h5>
           <section>
-            <iframe src="/charts/nov-15-2014.html" width='100%' height='420' frameborder="0"></iframe>
+            <iframe src="./charts/nov-15-2014.html" width='100%' height='420' frameborder="0"></iframe>
             <p><small>15 ноября 2014 по данным http://httparchive.org/</small></p>
           </section>
           <section>
-            <iframe src="/charts/nov-15-2017.html" width='100%' height='420' frameborder="0"></iframe>
+            <iframe src="./charts/nov-15-2017.html" width='100%' height='420' frameborder="0"></iframe>
             <p><small>15 ноября 2017 по данным http://httparchive.org/</small></p>
           </section>
         </section>
@@ -73,23 +73,26 @@
             <li>FLIF</li>
           </ul>
           </section>
-          <section data-background='https://media.giphy.com/media/HCX8j55lmNtra/source.gif'>
+          <section data-background='./images/source.gif'>
             <h1>GIF</h1>
           </section>
-          <section data-background='/images/pattern.png' data-background-repeat="repeat" data-background-size="40px">
+          <section data-background='./images/pattern.png' data-background-repeat="repeat" data-background-size="40px">
             <h1 style='color: black'>PNG</h1>
           </section>
           <section data-background='#58595b'>
-            <img src="/images/jpeg-logo.png" style='border:none; box-shadow:none; background: transparent;' alt="">
+            <img src="./images/jpeg-logo.png" style='border:none; box-shadow:none; background: transparent;width:30%' alt="">
           </section>
           <section>
-            <img src="/images/svglogo.png" style='background:none;border:none;box-shadow:none' alt="">
+            <img src="./images/svglogo.png" style='background:none;border:none;box-shadow:none;width:40%' alt="">
           </section>
           <section data-background='#fff' >
-            <img src="/images/webplogo.png" style='background:none;border:none;box-shadow:none'>
+            <img src="./images/webplogo.png" style='background:none;border:none;box-shadow:none;width:70%'>
+             <p class="ciu_embed" data-feature="webp" data-periods="future_1,current,past_1,past_2,past_4">
+              <a href="http://caniuse.com/#feat=webp">Can I Use webp?</a> Data on support for the webp feature across the major browsers from caniuse.com.
+            </p>
           </section>
           <section data-background='#fff'>
-            <img src="/images/flif.png" style='background:none;border:none;box-shadow:none' alt="">
+            <img src="./images/flif.png" style='background:none;border:none;box-shadow:none' alt="">
             <br>
             <a href="http://flif.info/">www.flif.info</a>
           </section>
@@ -97,17 +100,17 @@
 
         <section>
           <h1>JPEG</h1>
-          <img src="/images/jpeg-logo.png" class='img-reset'>
-          <img src="/images/aic-logo.png" class='img-reset'>
-          <img src="/images/jbig-logo.png" class='img-reset'>
-          <img src="/images/jpeg2000-logo.png" class='img-reset'>
-          <img src="/images/jpegls-logo.png" class='img-reset'>
-          <img src="/images/jpegpleno-logo.png" class='img-reset'>
-          <img src="/images/jpegsystems-logo.png" class='img-reset'>
-          <img src="/images/jpegxr-logo.png" class='img-reset'>
-          <img src="/images/jpegxs-logo.png" class='img-reset'>
-          <img src="/images/jpegxt-logo.png" class='img-reset'>
-          <img src="/images/jpsearch-logo.png" class='img-reset'>
+          <img src="./images/jpeg-logo.png" class='img-reset'>
+          <img src="./images/aic-logo.png" class='img-reset'>
+          <img src="./images/jbig-logo.png" class='img-reset'>
+          <img src="./images/jpeg2000-logo.png" class='img-reset'>
+          <img src="./images/jpegls-logo.png" class='img-reset'>
+          <img src="./images/jpegpleno-logo.png" class='img-reset'>
+          <img src="./images/jpegsystems-logo.png" class='img-reset'>
+          <img src="./images/jpegxr-logo.png" class='img-reset'>
+          <img src="./images/jpegxs-logo.png" class='img-reset'>
+          <img src="./images/jpegxt-logo.png" class='img-reset'>
+          <img src="./images/jpsearch-logo.png" class='img-reset'>
 
           <br>
           <a href="#">www.jpeg.org</a>
@@ -116,32 +119,64 @@
         <!-- Baseline & Progressive -->
         <section>
           <h3>Baseline & Progressive JPEG</h3>
-          <video controls="controls" height="100%" poster="/images/non_progressive_vs_progressive_jpeg.jpg" preload="none" style="margin: 0 auto;display: block" width="100%">
-            <source src="/video/non_progressive_vs_progressive_jpeg.webm" type="video/webm" />
-            <source src="/video/non_progressive_vs_progressive_jpeg.mp4" type="video/mp4" />
-            <source src="/video/non_progressive_vs_progressive_jpeg.ogv" type="video/ogg" />
+          <video controls="controls" height="100%" poster="./images/non_progressive_vs_progressive_jpeg.jpg" preload="none" style="margin: 0 auto;display: block" width="100%">
+            <source src="./video/non_progressive_vs_progressive_jpeg.webm" type="video/webm" />
+            <source src="./video/non_progressive_vs_progressive_jpeg.mp4" type="video/mp4" />
+            <source src="./video/non_progressive_vs_progressive_jpeg.ogv" type="video/ogg" />
           </video>
         </section>
 
         <section>
+          <section>
           <ul>
             <li>ImageMagick</li>
             <li>Graphicsmagick</li>
             <li>MozJpeg</li>
             <li>Guetzli</li>
           </ul>
+          </section>
+          <section>
+            <p>ImageMagick</p>
+            <ul>
+              <li><a href="https://www.imagemagick.org">www.imagemagick.org</a></li>
+              <li>brew install imagemagick</li>
+              <li>npm install imagemagick</li>
+            </ul>
+          </section>
+          <section>
+            <p>Graphicsmagick</p>
+            <ul>
+              <li><a href="http://www.graphicsmagick.org/">www.graphicsmagick.org</a></li>
+              <li>brew install graphicsmagick</li>
+              <li>npm install gm</li>
+            </ul>
+          </section>
+          <section>
+            <p>MozJpeg</p>
+            <ul>
+              <li><a href="https://github.com/mozilla/mozjpeg">https://github.com/mozilla/mozjpeg</a></li>
+              <li>brew install mozjpeg</li>
+              <li>npm install -global mozjpeg</li>
+            </ul>
+          </section>
+          <section>
+            <p>Guetzli</p>
+            <li><a href="https://github.com/google/guetzli">https://github.com/google/guetzli</a></li>
+            <li>brew install guetzli</li>
+            <li>npm install guetzli</li>
+          </section>
         </section>
 
         <section data-background='#fff'>
           Кодирование и декодирование JPEG
-          <img src="/images/hpim_0901.png" class='img-reset' alt="">
+          <img src="./images/hpim_0901.png" class='img-reset' alt="">
         </section>
         
         <section data-background='#fff'>
           <h1>Chroma Sampling</h1>
           <section>
           <p>Цветовая субдискретизация</p>
-          <img src="/images/chroma-sampling.png" class='img-reset' alt="">
+          <img src="./images/chroma-sampling.png" class='img-reset' alt="">
           </section>
           <section>
             <p>4:4:4 === 1x1,1x1,1x1</p>
@@ -161,12 +196,20 @@
             </script>
           </code></pre>
         </section>
+        <section>
+          <h6>responsive images tag</h6>
+          
+            <p>&lt;img srcset=&quot;...&quot; /&gt;</p>
+            <p>&lt;picture&gt;&lt;/picture&gt;</p>
+        </section>
       </div>
 
     </div>
 
     <script src="lib/js/head.min.js"></script>
     <script src="js/reveal.js"></script>
+    <script src="//cdn.jsdelivr.net/caniuse-embed/1.1.0/caniuse-embed.min.js"></script>
+
 
     <script>
 
